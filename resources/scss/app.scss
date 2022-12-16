@@ -1,0 +1,72 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+header {
+    font-size: 13px;
+
+    .top_header {
+        background-color: #0282F9;
+    }
+
+    .nav {
+        margin-top: 1rem;
+
+        .navbar {
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: grey;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 1rem;
+
+            }
+
+        }
+    }
+}
+
+main {
+    .jumbo-top {
+        height: 400px;
+        background-image: url('../img/jumbotron.jpg');
+        background-position: center top;
+    }
+}
+
+.content {
+    position: relative;
+
+    .current_series {
+        position: absolute;
+        bottom: 95%;
+        left: 10%;
+        padding: 1rem 2.5rem;
+        background-color: #0282F9;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .load {
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+
+        a {
+            background-color: #0282F9;
+            padding: 0.5rem 3rem;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                background-color: transparent;
+                border: 2px solid #0282F9;
+
+            }
+        }
+    }
+}
