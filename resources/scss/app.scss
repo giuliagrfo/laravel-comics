@@ -99,3 +99,78 @@ main {
 
     }
 }
+
+footer {
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h5 {
+        color: $light;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        padding-bottom: 1rem;
+        padding-left: 0;
+
+        li {
+            list-style: none;
+            padding: 0.25rem 0;
+
+            a {
+                text-decoration: none;
+                color: #797979;
+            }
+        }
+    }
+
+    .ft_logo {
+        background-image: url('../img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    .call_to_action {
+        background-color: #303030;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $light;
+            border: 2px solid #0282F9;
+            padding: 0.5rem;
+
+            &:hover {
+                background-color: #0282F9;
+            }
+        }
+
+        h5 {
+            color: #0282F9;
+        }
+
+        .sign_up {
+            display: flex;
+        }
+
+        .social {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+
+            h3 {
+                margin: 0 1rem;
+            }
+
+            img {
+                margin: 0 0.5rem;
+            }
+        }
+    }
+}
