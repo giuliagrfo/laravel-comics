@@ -9,22 +9,33 @@ header {
     }
 
     .nav {
-        margin-top: 1rem;
+        margin: 1rem 0;
 
         .navbar {
 
             a {
                 display: inline-block;
                 text-decoration: none;
-                color: grey;
+                color: #46464C;
                 text-transform: uppercase;
                 font-weight: bold;
+                font-size: 15px;
                 padding: 1rem;
-
             }
 
+            .active {
+                color: #0282F9;
+                border-bottom: 4px solid #0282F9;
+                padding-bottom: 52px;
+                margin-bottom: -52px;
+            }
+
+
         }
+
     }
+
+
 }
 
 main {

@@ -16,7 +16,7 @@
             <nav class="navbar">
                 <div class="links">
                     <a href="#">characters</a>
-                    <a href="#">comics</a>
+                    <a href="#" class="{{Route::CurrentRouteName() === 'comics' ? 'active' : ''}}">comics</a>
                     <a href="#">movies</a>
                     <a href="#">tv</a>
                     <a href="#">games</a>
